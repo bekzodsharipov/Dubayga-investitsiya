@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>17-Oktyabr | Ertalab 09:00</title>
+  <style>
+   a { text-decoration: none; color: white; } .date__container, .date__top { display: flex; align-items: center; } .center, .container, .date, .date__inner-list, .date__inner-text { position: relative; } .date__inner { position: relative; z-index: 30; } * { margin: 0; padding: 0; box-sizing: border-box; } a, li, ul { list-style: none; text-decoration: none; } .container { max-width: 1624px; width: 100%; margin: 0 auto; padding: 0 20px; } .date { padding: 136px 0 91px; background-color: #171717; color: #fff; overflow: hidden; min-height: 100vh; } .date__top-left { display: flex; align-items: center; padding: 5px 17.13px; border: 1px solid #fff; border-radius: 50px; } .date__top-left-dot { background-color: #D50606; width: 11px; height: 11px; border-radius: 50%; margin-right: 13px; } .date__top-left-title { font-weight: 500; font-size: 13px; } .date__inner-title { font-family: Mulish, sans-serif; font-weight: 800; font-size: 24px; text-transform: uppercase; max-width: 819px; line-height: 29px; margin-bottom: 12px; span { color: #D50606; } } .center { padding-top: 65px; } .date__inner-info { max-width: 277px; justify-content: center; width: 100%; margin-left: auto; margin-right: auto; display: flex; align-items: center; border-radius: 10px; gap: 9px; padding: 9px 24px; background: linear-gradient(90deg, #D50606 0%, #A70000 100%); position: relative; z-index: 10; } .date__bottom { margin-bottom: 24px; } .date__bottom-btn { font-weight: 700; font-size: 24px; padding: 22px 37px; border: none; cursor: pointer; border-radius: 20px; box-shadow: 0px 5px 0px 0px #610606; background: linear-gradient(90deg, #BB0707 0%, #D50606 51%, #BB0707 100%); color: #ffffff; max-width: 331px; width: 100%; display: flex; align-items: center; justify-content: center; text-transform: uppercase; } .flex { display: flex; align-items: center; gap: 54px; margin-bottom: 30px; } .date__timer { max-width: 111px; background-color: #fff; color: #000; z-index: 20; padding: 4px 7px 4px 9px; display: flex; align-items: center; justify-content: center; font-size: 28px; max-width: 86px; font-weight: 700; width: 100%; border-radius: 5px; box-shadow: 4px 4px 25px 1px #D50606; position: relative; z-index: 30; } .date__inner-text { font-weight: 700; font-size: 17px; color: grey; z-index: 20; } .date__inner-free { font-family: Neue Montreal, sans-serif; font-size: 17px; font-weight: 700; text-align: left; line-height: 24px; color: #919191; position: relative; z-index: 30; margin-top: 24px; } .date { padding: 32px 0 31px; } .date__bottom-btn { position: relative; margin-right: 30px; padding: 30px 25px; z-index: 20; } .date__inner-free { font-size: 14px; text-align: center; } .redBorderText { font-family: Montserrat, sans-serif; font-weight: 700; font-style: Bold; font-size: 12px; line-height: 17px; text-align: center; max-width: 245px; border: 1px solid #cc0d10; padding: 5px 14px; border-radius: 10px; margin-left: auto; margin-right: auto; margin-bottom: 20px; } .flex { flex-direction: column-reverse; align-items: start; gap: 15px; } .date { padding: 23px 0; text-align: center; } .date__container { flex-direction: column; max-width: 376px; padding-left: 10px; padding-right: 10px; } .date__top { flex-direction: column; margin-bottom: 23px; } .date__inner-list { text-align: start; z-index: 1; margin-bottom: 20px; max-width: 189px; width: 100%; z-index: 30; position: relative; } .date__inner-item { font-size: 12px; line-height: 19px; font-weight: 500; font-family: sans-serif; } .date__inner-item>span { color: #FF0000; font-weight: 500; } .date__inner-item:nth-child(2) { margin-bottom: 10px; } .date__inner-item:nth-child(3) { margin-bottom: 10px; } .date__inner-item:nth-child(4) { margin-bottom: 10px; max-width: 164px; width: 100%; } .date__inner-item:nth-child(5) { margin-bottom: 10px; max-width: 174px; width: 100%; } .date__bottom-text { font-size: 16px; line-height: 23px; font-weight: 600; font-family: sans-serif; margin-top: -20px; } .date__inner-list-title { font-size: 14px; max-width: 236px; line-height: 22px; margin-bottom: 4px; font-weight: 700; line-height: 28px; color: #808080; } .date__bottom { flex-direction: column-reverse; align-items: start; z-index: 20; } .date__bottom-btn { margin-top: 43px; padding: 22px 0; width: 100%; margin-right: 0; margin-bottom: 11px; margin-top: 10px; max-width: 331px; margin-left: auto; margin-right: auto; border-radius: 20px; display: flex; z-index: 30; } .gradient { background: linear-gradient(0deg, #171717 50.48%, rgba(23, 23, 23, 0) 100%); width: 200%; left: -40%; height: 254px; position: absolute; bottom: -0px; z-index: 20; } .date__img { position: absolute; top: 20px; width: 268px; height: 482px; right: -70px; object-fit: contain; object-position: top; margin-left: auto; margin-right: auto; z-index: 20; } .date__inner-info-text { margin-bottom: 0px; text-align: center; font-size: 16px; font-weight: 500; line-height: 22px; font-family: sans-serif; } .date__inner-arrow { position: absolute; left: 50px; top: 180px; } .date__center-box { background: #D50606; border-radius: 20px 0 0px 20px; max-width: 226px; width: 100%; margin-bottom: 19px; opacity: 60%; padding-bottom: -10px; display: flex; padding-left: 20px; padding-bottom: -50px; padding-top: 11px; } .date__speaker-bg { background: var(--color-red-43, #D50606); border-radius: 1000px; height: 295px; width: 268px; opacity: 40%; position: absolute; top: 80px; left: 205px; backdrop-filter: blur(0px); } @media screen and (max-width: 365px) { .date__inner-title { font-size: 22px; line-height: 22px; } .date__inner-arrow { position: absolute; left: 35px; top: 160px; } .date__center-box { display: flex; padding-left: 10px; } .date__img { width: 245px; top: 48px; height: 450px; } .date__speaker-bg { left: 60% } .date__inner-title { font-size: 20px; line-height: 22px; } .container { padding: 0 10px; } .date__top-left-title { font-size: 11px; } .gradient {} } .free__text { font-size: 12px; position: relative; z-index: 30; margin-top: -50px; margin-bottom: 15px; display: flex; justify-content: center; align-items: end; svg { margin-bottom: -20px; } }
+  </style>
+  <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="./css/modal.css" />
+  </noscript>
+</head>
+
+<body>
+  <div class="date">
+    <div class="container date__container">
+      <div class="date__inner">
+        <div class="date__top registerBtn">
+          <div class="date__top-left">
+            <div class="date__top-left-dot"></div>
+            <h4 class="date__top-left-title">26-Oktyabr | offline seminar | Toshkent, Impact</h4>
+          </div>
+        </div>
+        <h1 class="date__inner-title">
+          Dubayga investitsiya kiritishdagi xatolar!
+        </h1>
+        <div class="date__inner-info">
+          <p class="date__inner-info-text">
+            To'g'ri investitsiya kiritib, <br> oylik $2000 daromad qiling
+          </p>
+        </div>
+        <div class="center">
+          <ul class="date__inner-list">
+            <h4 class="date__inner-list-title">Seminar davomida:</h4>
+            <li class="date__inner-item">
+              — Nega <span>aynan Dubayga</span> investitsiya qilish kerakligi
+            </li>
+            <li class="date__inner-item">
+              — Nimadan va <span>qancha puldan boshlash</span>
+            </li>
+            <li class="date__inner-item">
+              — Bitta obyektdan <span>qancha foyda qilish mumkinligi</span>
+            </li>
+            <li class="date__inner-item">
+              — Dubayga investitsiya kiritishda <span>eng ko'p <br> qilinadigan xatolar</span> haqida gaplashamiz
+            </li>
+          </ul>
+
+          <img src="./images/speaker.avif" alt="Speaker rasmi" decoding="async" loading="lazy"
+            class="date__img speakerImg" width="268" height="343">
+          <div class="date__speaker-bg"></div>
+          <div class="flex">
+            <button class="date__bottom-btn registerBtn">RO’YXATDAN O’TISH</button>
+            <div class="date__timer" id="timer">02 : 00</div>
+          </div>
+          <div class="gradient"></div>
+        </div>
+      </div>
+      <p class="date__bottom-text" style="color: white;">Seminar pullik bo'ladi!</p>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="registrationModal" class="homeModal" style="display: none">
+    <div class="homeModalOverlay"></div>
+    <div class="homeFormContainer">
+      <button class="closeButton" id="closeModalBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+          <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+      </button>
+      <div class="homeFormTop">
+        <h1 class="homeFormTopTitle">
+          MASTERKLASSGA <br />
+          RO'YXATDAN O'TISH
+        </h1>
+      </div>
+      <form id="registrationForm" name="contact-form">
+        <div class="HomeFormRow">
+          <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+          <div class="phone-input-container">
+            <div class="country-selector">
+              <div class="selected-country" id="selectedCountry">
+                <span id="selectedCountryCode">+998</span>
+                <svg id="dropdownIcon" xmlns="httpAdobe Express - file (53) 1://www.w3.org/2000/svg" width="16"
+                  height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </div>
+              <div class="country-dropdown" id="countryDropdown" style="display: none"></div>
+            </div>
+            <input class="HomeFormRowInput" type="tel" id="phone" name="phone" placeholder="88 888 88 88"
+              autocomplete="tel" />
+          </div>
+          <p class="homeFormErrorText" id="phoneError" style="display: none">
+            ❌ Telefon raqam mos emas!
+          </p>
+        </div>
+        <button type="submit" class="HomeFormBtn" id="submitBtn">
+          ro’yxatdan o’tish </button>
+      </form>
+    </div>
+  </div>
+  <script defer src="./js/app.js"></script>
+</body>
+
+</html>
